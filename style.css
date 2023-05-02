@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bg-img{
+    background-image: url(images/home-bg-lg.dab5070ae0236043c1f69aebad78b396.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+}
+
+body{
+  overflow-x: hidden;
+}
+.nav-tabs
+ {
+   width:500px;
+ }
+
+.nav-tabs > li a { 
+    background-color:white; 
+    color: red;
+    width: 246px;
+    font-weight: 500;
+    margin: 0px 2px;
+    height: 62px;
+    padding: 15px 32px;
+    font-size: 20px;
+    text-align: center;
+    }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+    background-color: rgb(152, 150, 150);
+    color: #454545;
+    line-height: 52px;
+    border-bottom-color: transparent;
+    }
+
+.nav-tabs > li.active > a > img,
+.nav-tabs > li.active > a > img:focus,
+.nav-tabs > li.active > a > img:hover{
+  color: #454545;
+
+}
+
+.nav-tabs > li.active{
+  line-height: 52px;
+}
+
+.nav-tabs > li > a:hover{
+  background-color: white;
+    color: red;
+} 
+
+
+
+
+.tab-pane {
+   margin-left: 1px;
+    border-top: 0; 
+    width: 497px;
+    height:237px;
+    background-color:white;
+    padding: 10px 16px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 18px 13px 0 rgba(0, 0, 0, 0.193);
+}
+
+h5{
+    font-weight: 600;
+    padding-top: 25px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+p,a{
+    color: rgb(66, 66, 66);
+    padding-left: 5px;
+}
+
+input[type=text] {
+    width: 460px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(191, 191, 191);
+  }
+
+  h3{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 60px;
+  }
+
+  .full{
+    text-align: center;
+    border: none;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: #0a8020;
+    color: white;
+    font-size: 1.4rem;
+    min-height: 56px;
+    margin-top: 30px;
+    text-decoration: none;
+    width: 1060px;
+    margin-left: 98px;
+  }
+
+  .full:hover{
+    background-color: darkgreen;
+  }
+
+  .col-lg-2, ul, li{
+    font-size: 14px;
+  }
